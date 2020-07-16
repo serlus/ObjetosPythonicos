@@ -16,3 +16,6 @@ Olá
 def executar(f, n=1):
     for _ in range(n):
         f()
+
+ # pytest pacote/modulo.py --doctest-module -v (executa o doctest)
+ 
